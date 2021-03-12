@@ -1,0 +1,23 @@
+html
+    head
+        title URL Shortener
+
+    style.
+        body {
+            background-color: black;
+            color: white;
+        }
+    
+    body
+        h1 URL shortening service
+        p Shortened link info
+        
+        p(style='flex-direction: "row"')
+            | Shortened link: 
+            a(href="https://i.gifit.io/s/" + short)
+                | https://i.gifit.io/s/#{short}
+        p
+            | Links to: 
+            a(href=url)
+                | #{url}
+        p=iframe ? 'Destination site displays within an iframe' : 'Browser is redirected towards destination'

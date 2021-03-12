@@ -1,0 +1,21 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "Quick web app to provide custom short urls using my domain.",
+  "main": "index.js",
+  "repository": "https://github.com/tic/url-shortener",
+  "author": "G. Michael Fitzgerald <38142372+tic@users.noreply.github.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node index"
+  },
+  "dependencies": {
+    "async-mutex": "^0.2.6",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "http": "^0.0.1-security",
+    "mongodb": "^3.6.3",
+    "pug": "^3.0.0"
+  }
+}
